@@ -1,0 +1,102 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+section{
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/43/87/preschool-children-vector-23094387.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+    }
+header{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-color:indianred;
+}
+header .logo{
+    position: relative;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-decoration: none;
+    letter-spacing: 0.5rem;
+    color:white;
+
+}
+header .nav{
+    position: relative;
+    display: flex;
+
+}
+header .nav li{
+    list-style: none;
+
+}
+header .nav li a{
+    display: inline-block;
+    color:white;
+    margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
+}
+header .nav li a:hover{
+    color:black;
+    transition: 0.5s;
+    
+}
+.content{
+    max-width: 600px;
+
+}
+.content .contentbx h2{
+    font-size: 5rem;
+    line-height: 1em;
+    color:rgb(197, 176, 56);
+}
+.content .contentbx p{
+    font-size: 1.1em;
+    line-height: 2.5rem;
+    margin:20px 0px;
+    font-weight: 700;
+}
+.content .contentbx a{
+    display:inline-block;
+    background-color: indianred;
+    text-decoration: none;
+    width:20%;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+
+}
+.content .contentbx a:hover{
+    color: black;
+}
+form{
+    display:grid;
+    justify-content:end;
+    border-style:ridge;
+    box-sizing: content-box;
+    font-size: 20px;
+    position:ab;
+    
+}
+form h2{
+    text-align: center;
+}
+form button{
+    align-items: center;
+}
